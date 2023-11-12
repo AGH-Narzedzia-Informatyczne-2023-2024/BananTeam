@@ -19,4 +19,6 @@ Proponowane nowe możliwości:
 + Levele postaci
 + Multiplayer(?)
 
+**DOGE**
+
 Gra tworzona jest w Unity 2019.4.15f1
