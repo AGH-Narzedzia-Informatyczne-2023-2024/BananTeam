@@ -14,8 +14,9 @@ Grywalne postacie:
 + [Kolejny rzułty pies posting](https://www.facebook.com/profile.php?id=100086775347409)
 + [Chlebeł](https://www.facebook.com/profile.php?id=100080361260322)
 
-Ulepszone możliwości:
-+Tryb poziomów
-+Levele postaci
-+Multiplayer(?)
+Proponowane nowe możliwości:
++ Tryb poziomów
++ Levele postaci
++ Multiplayer(?)
+
 Gra tworzona jest w Unity 2019.4.15f1
