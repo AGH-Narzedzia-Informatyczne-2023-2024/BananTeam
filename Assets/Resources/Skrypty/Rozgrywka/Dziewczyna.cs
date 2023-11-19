@@ -13,7 +13,7 @@ public class Dziewczyna : Postac
     {
         strona = Strona.Dziewczyna;
         predkosc = 1.5f;
-        predkosc_poczatkowa=predkosc;
+        predkoscPoczatkowa=predkosc;
         atakuje = false;
         maksHp=100;
         cialo = transform.Find("CialoDziewczyny").gameObject;
