@@ -10,7 +10,7 @@ public class Postac : MonoBehaviour
     public int hp;
     public int maksHp;
     public float predkosc;
-    public float predkosc_poczatkowa;
+    public float predkoscPoczatkowa;
     public Strona strona;
     public int pokonania = 0;
     public bool zabity;
@@ -31,7 +31,7 @@ public class Postac : MonoBehaviour
             Zabij(raniacy);
         }
         else{
-            predkosc=predkosc_poczatkowa*((float)(hp)/(float)(maksHp));
+            predkosc=predkoscPoczatkowa*((float)(hp)/(float)(maksHp));
         }
     }
 
