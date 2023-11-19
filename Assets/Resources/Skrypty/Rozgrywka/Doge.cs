@@ -26,6 +26,7 @@ public class Doge : Postac
         Ogolne.mapa = GameObject.Find("Mapa").GetComponent<Mapa>();
         strona = Strona.Doge;
         predkosc = 2;
+        predkosc_poczatkowa=predkosc;
     }
 
     public void Update()
