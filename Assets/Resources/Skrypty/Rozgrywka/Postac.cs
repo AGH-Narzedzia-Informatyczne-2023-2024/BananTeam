@@ -10,6 +10,7 @@ public class Postac : MonoBehaviour
     public int hp;
     public int maksHp;
     public float predkosc;
+    public float predkosc_poczatkowa;
     public Strona strona;
     public int pokonania = 0;
     public bool zabity;
@@ -26,7 +27,12 @@ public class Postac : MonoBehaviour
     {
         if(zabity) return;
         hp -= obrazenia;
-        if(hp <= 0) Zabij(raniacy);
+        if(hp <= 0){
+            Zabij(raniacy);
+        }
+        else{
+            predkosc=predkosc_poczatkowa*((float)(hp)/(float)(maksHp));
+        }
     }
 
     public virtual void Zabij(Postac zabijajacy)
